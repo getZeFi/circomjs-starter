@@ -7,7 +7,6 @@ You should check out [this](https://zefi.gitbook.io/circomjs/introduction/gettin
 Here is the current structure of this repository.
 
 - **circuits**: contains two circuits addition.circom and multiplication.circom, they generate proofs of valid addition and multiplication of two numbers respectively.
-- **data**: contains a power of tau file required for compilation of these circuits.
 - **src**: contains a javascript files, that uses [CircomJS](https://github.com/getZeFi/circomjs) to do the following:
   - compile circuits
   - generate proof

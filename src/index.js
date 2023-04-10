@@ -1,4 +1,4 @@
-const {CircomJS} = require("../../circomjs")
+const {CircomJS} = require("@zefi/circomjs")
 
 const main = async() => {
     const circomjs = new CircomJS()
@@ -12,6 +12,7 @@ const main = async() => {
         y: 5
     }
 
+    // generates proof of multiplication of 3 and 5 -> 15
     const proof = await circuit.genProof(input);
     console.log("proof verification result ----->",await circuit.verifyProof(proof))
 }

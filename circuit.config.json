@@ -7,16 +7,13 @@
       {
         "cID": "mul",
         "fileName": "multiply.circom",
-        "proofType": "groth16",
-        "compilationMode": "wasm",
-        "powerOfTauFp": "./data/powersOfTau28_hez_final_14.ptau"
+        "compilationMode": "wasm"
       },
       {
         "cID": "add",
         "fileName": "addition.circom",
         "proofType": "plonk",
-        "compilationMode": "wasm",
-        "powerOfTauFp": "./data/powersOfTau28_hez_final_14.ptau"
+        "compilationMode": "wasm"
       }
     ]
   }
